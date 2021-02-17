@@ -1,0 +1,278 @@
+/*
+# ###########################################################################
+#
+#  CLOUDERA APPLIED MACHINE LEARNING PROTOTYPE (AMP)
+#  (C) Cloudera, Inc. 2021
+#  All rights reserved.
+#
+#  Applicable Open Source License: Apache 2.0
+#
+#  NOTE: Cloudera open source products are modular software products 
+#  made up of hundreds of individual components, each of which was 
+#  individually copyrighted.  Each Cloudera open source product is a 
+#  collective work under U.S. Copyright Law. Your license to use the 
+#  collective work is as provided in your written agreement with  
+#  Cloudera.  Used apart from the collective work, this file is 
+#  licensed for your use pursuant to the open source license 
+#  identified above.
+#
+#  This code is provided to you pursuant a written agreement with
+#  (i) Cloudera, Inc. or (ii) a third-party authorized to distribute 
+#  this code. If you do not have a written agreement with Cloudera nor 
+#  with an authorized and properly licensed third party, you do not 
+#  have any rights to access nor to use this code.
+#
+#  Absent a written agreement with Cloudera, Inc. (“Cloudera”) to the
+#  contrary, A) CLOUDERA PROVIDES THIS CODE TO YOU WITHOUT WARRANTIES OF ANY
+#  KIND; (B) CLOUDERA DISCLAIMS ANY AND ALL EXPRESS AND IMPLIED 
+#  WARRANTIES WITH RESPECT TO THIS CODE, INCLUDING BUT NOT LIMITED TO 
+#  IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY AND 
+#  FITNESS FOR A PARTICULAR PURPOSE; (C) CLOUDERA IS NOT LIABLE TO YOU, 
+#  AND WILL NOT DEFEND, INDEMNIFY, NOR HOLD YOU HARMLESS FOR ANY CLAIMS 
+#  ARISING FROM OR RELATED TO THE CODE; AND (D)WITH RESPECT TO YOUR EXERCISE 
+#  OF ANY RIGHTS GRANTED TO YOU FOR THE CODE, CLOUDERA IS NOT LIABLE FOR ANY
+#  DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE OR
+#  CONSEQUENTIAL DAMAGES INCLUDING, BUT NOT LIMITED TO, DAMAGES 
+#  RELATED TO LOST REVENUE, LOST PROFITS, LOSS OF INCOME, LOSS OF 
+#  BUSINESS ADVANTAGE OR UNAVAILABILITY, OR LOSS OR CORRUPTION OF
+#  DATA.
+#
+# ###########################################################################
+
+The following code has been copied from an example in Python Dash Gallery, found at: 
+
+https://github.com/plotly/dash-sample-apps/blob/master/apps/dash-tsne/assets/styles.css
+
+*/
+
+/* New style sheet for the refreshed demo app */
+
+.header {
+  padding: 15px 35px;
+}
+
+.header_img {
+  float: left;
+}
+
+.header_title_container {
+  float: right;
+}
+
+.header_title {
+  font-family: "Arial";
+  color: #6c7182;
+  text-align: right;
+  margin: 0 !important;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.background {
+  background-color: #f2f3f4;
+  padding: 0px 0px;
+}
+
+.rc-slider-track {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  border-radius: 6px;
+  background-color: #3266c1 !important;
+}
+.rc-slider-dot-active {
+  border-color: #3266c1 !important;
+}
+
+.rc-slider-handle {
+  position: absolute;
+  margin-left: -7px;
+  margin-top: -5px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: solid 2px #3266c1 !important;
+  background-color: #fff;
+}
+.rc-slider-step {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: transparent;
+  border-color: #3266c1 !important;
+}
+
+.Select-control {
+  background-color: #f2f3f4;
+  border-radius: 4px;
+  display: table;
+  border-spacing: 0;
+  border-collapse: separate;
+  height: 36px;
+  overflow: hidden;
+}
+
+.js-plotly-plot .plotly .modebar-group {
+  background-color: #f2f3f4 !important;
+}
+
+.card-style {
+  padding: 20px;
+  margin: 5px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Arimo", "Helvetica Light", "Helvetica Neue", Helvetica,
+    "Helvetica 55 Roman";
+  color: #6c7182;
+}
+
+#demo-explanation > div > div:nth-child(2) > div > p:nth-child(11) > img {
+  width: 40%;
+}
+#graph-3d-plot-tsne > div > div > svg:nth-child(1) {
+  background-color: #f2f3f4 !important;
+}
+
+#graph-3d-plot-tsne > div > div > svg:nth-child(1) > g.bglayer > rect {
+  fill: #f2f3f4 !important;
+}
+
+#graph-bar-nearest-neighbors-word > div > div > svg:nth-child(1) {
+  background-color: #f2f3f4 !important;
+}
+
+#graph-bar-nearest-neighbors-word
+  > div
+  > div
+  > svg:nth-child(1)
+  > g.bglayer
+  > rect {
+  fill: #f2f3f4 !important;
+}
+
+#graph-3d-plot-tsne > div > div > svg:nth-child(1) > g.bglayer > rect {
+  fill: #f2f3f4;
+  fill-opacity: 1;
+  stroke-width: 0;
+}
+
+#react-select-2--value-item {
+  color: #6c7182;
+}
+
+#graph-3d-plot-tsne
+  > div
+  > div
+  > svg:nth-child(3)
+  > g.infolayer
+  > g.legend
+  > rect.bg {
+  stroke: #6c7182 !important;
+  fill: #f2f3f4 !important;
+}
+
+#demo-explanation #learn-more-button {
+  text-transform: none;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 0px;
+  letter-spacing: 0;
+  padding: 0px 15px;
+}
+
+#euclidean-distance #submit-button {
+  text-transform: none;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 0px;
+  letter-spacing: 0;
+  padding: 0px 15px;
+}
+
+/* ---Different Screen Sizes--- */
+
+@media only screen and (max-width: 768px) {
+  .columns {
+    float: none;
+    width: 90%;
+  }
+
+  .two.columns {
+    margin: auto;
+    width: 30%;
+  }
+  
+  .three.columns {
+    margin: auto;
+    width: 75%;
+  }
+
+  .four.columns {
+    margin: auto;
+    width: 50%;
+  }
+
+  .six.columns {
+    margin: 10% 5%;
+    width: auto;
+  }
+
+  .nine.columns {
+    float: left;
+    margin: 0;
+    width: 100%;
+  }
+
+  background {
+    width: 100%;
+  }
+
+  #app-title {
+    text-align: center;
+  }
+
+  #plotly-image {
+    height: 50px;
+  }
+
+  .header_img {
+    float: left;
+    margin: 0;
+  }
+
+  #demo-explanation {
+    text-align: center;
+    padding-right: 0 !important;
+  }
+
+  #demo-explanation > div > div:nth-child(1) {
+    padding-right: 7%;
+  }
+  #demo-explanation > div:nth-child(2) {
+    padding-right: 15%;
+  }
+  #demo-explanation > div > div:nth-child(3) {
+    padding-right: 15%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #plotly-image {
+    height: 45px;
+    width: auto;
+  }
+}
