@@ -51,8 +51,7 @@ import plotly.graph_objs as go
 import scipy.spatial.distance as spatial_distance
 import numpy as np
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html
 
 from PIL import Image
 from io import BytesIO

@@ -100,8 +100,7 @@ There are three ways to launch this project on CML:
 3. **Manual Setup** - In a CML workspace, click "New Project", add a Project Name, select "Git" as the Initial Setup option, copy in the [repo URL](https://github.com/cloudera/CML_AMP_Active_learning), click "Create Project". Then, follow the installation instructions below.
 
 ### Installation
-The code and applications were developed using Python 3.6.9, and are likely also to function with more 
-recent versions of Python. 
+The code and applications are configured to run on Python 3.12.
 
 To install dependencies, first create and activate a new virtual environment through your preferred means, 
 then pip install from the requirements file. We recommend:
